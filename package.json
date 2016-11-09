@@ -1,0 +1,23 @@
+{
+  "name": "@johnpaulvaughan/helloworld",
+  "version": "1.0.0",
+  "description": "Testing sym links in local development. This just outputs hello world to your console.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnpaulvaughan/helloworld.git"
+  },
+  "author": "John Paul Vaughan <johnpaulvaughan@hotmail.com> (http://johnpaulvaughan.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnpaulvaughan/helloworld/issues"
+  },
+  "homepage": "https://github.com/johnpaulvaughan/helloworld#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
