@@ -14,6 +14,6 @@ export function helloWorld() {
  * @param  {String} name
  * @return {String}
  */
-export function helloYou(name) {
+export function helloYou(name:string) {
   return String('hello ' + name);
 }
