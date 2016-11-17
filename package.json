@@ -1,6 +1,6 @@
 {
   "name": "@johnpaulvaughan/helloworld",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Testing sym links in local development. This just outputs hello world to your console.",
   "main": "index.js",
   "scripts": {
