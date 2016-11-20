@@ -1,16 +1,16 @@
 var should = require('chai').should(),
     hello = require('../index'),
-    helloworld = hello.helloworld,
-    helloyou = hello.helloyou;
+    helloWorld = hello.helloWorld,
+    helloYou = hello.helloYou;
 
-describe('#helloworld', function() {
+describe('#helloWorld', function() {
   it('return a string saying hello world', function() {
-    helloworld().should.equal('hello world');
+    helloWorld().should.equal('hello world');
   });
 });
 
-describe('#helloyou', function() {
+describe('#helloYou', function() {
   it('return a string saying hello dave', function() {
-    helloyou('dave').should.equal('hello dave');
+    helloYou('dave').should.equal('hello dave');
   });
 });
